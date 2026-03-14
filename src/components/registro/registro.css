@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-register {
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}

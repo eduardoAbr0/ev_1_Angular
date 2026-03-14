@@ -1,0 +1,38 @@
+<div class="container register-container">
+    <div class="card card-register">
+        <div class="card-body">
+            <h3 class="text-center mb-2">Crear Cuenta</h3>
+
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="********">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="confirm-password" class="form-label">Confirmar</label>
+                        <input type="password" class="form-control" id="confirm-password" placeholder="********">
+                    </div>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Registrarse</button>
+                </div>
+            </form>
+
+            <div class="text-center mt-4">
+                <p class="small mb-0">¿Ya tienes cuenta? <a routerLink="/login" class="text-decoration-none fw-bold">Iniciar sesión</a>
+            </div>
+        </div>
+    </div>
+</div>
